@@ -43,15 +43,15 @@ Copy code
  **Imports and Config:**
 
 - **smtplib, MIME* for email handling.**
--**datetime to get the current date.**
+- **datetime to get the current date.**
 
 **Email Functions:**
-create_email_content: Generates the content for the email. Customize this to include actual data.
-send_email: Composes and sends the email using the SMTP server.
-Main Execution:
+- **create_email_content: Generates the content for the email.**
+- **send_email: Composes and sends the email using the SMTP server.**
 
-Generates the subject and content.
-Sends the email to the specified recipient.
-Running the Script
-Test the script manually: Run it in your terminal or IDE to ensure it works as expected.
-Set up the scheduler: Follow the steps in Step 3 to schedule the script.
+## Main Execution:
+
+- **Generates the subject and content.**
+- **Sends the email to the specified recipient.**
+- **Running the Script**
+- **Test the script manually: Run it in your terminal or IDE to ensure it works as expected.**
